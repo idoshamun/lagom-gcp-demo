@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-api.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-impl-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-api.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-impl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-gcp-demo-stream-impl-build.iml" />
+    </modules>
+  </component>
+</project>
