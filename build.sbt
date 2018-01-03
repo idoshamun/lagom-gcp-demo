@@ -32,21 +32,3 @@ lazy val `lagom-gcp-demo-impl` = (project in file("lagom-gcp-demo-impl"))
   )
   .settings(lagomForkedTestSettings: _*)
   .dependsOn(`lagom-gcp-demo-api`)
-
-lazy val `lagom-gcp-demo-stream-api` = (project in file("lagom-gcp-demo-stream-api"))
-  .settings(
-    libraryDependencies ++= Seq(
-      lagomScaladslApi
-    )
-  )
-
-lazy val `lagom-gcp-demo-stream-impl` = (project in file("lagom-gcp-demo-stream-impl"))
-  .enablePlugins(LagomScala)
-  .settings(
-    libraryDependencies ++= Seq(
-      lagomScaladslTestKit,
-      macwire,
-      scalaTest
-    )
-  )
-  .dependsOn(`lagom-gcp-demo-stream-api`, `lagom-gcp-demo-api`)
