@@ -28,6 +28,12 @@ lazy val `lagom-gcp-demo-impl` = (project in file("lagom-gcp-demo-impl"))
       macwire,
       scalaTest,
       googleLogging
+    ),
+    dependencyOverrides ++= Set(
+      "io.netty" % "netty-codec-http2" % "4.1.18.Final",
+      "io.netty" % "netty-codec-socks" % "4.1.18.Final",
+      "io.netty" % "netty-handler-proxy" % "4.1.18.Final",
+      "io.netty" % "netty-tcnative-boringssl-static" % "2.0.7.Final"
     )
   )
   .settings(lagomForkedTestSettings: _*)
